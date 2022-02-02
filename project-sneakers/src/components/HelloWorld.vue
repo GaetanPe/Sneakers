@@ -564,7 +564,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h2 class="section-heading text-uppercase">Contactez Nous</h2>
                     <h3 class="section-subheading text-muted">
                         Lorem ipsum dolor sit amet consectetur.
                     </h3>
@@ -696,7 +696,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">
-                        Copyright &copy; Your Website 2021
+                        Copyright &copy; SneakersAddict.com 2022
                     </div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"
