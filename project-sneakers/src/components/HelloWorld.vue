@@ -1,5 +1,6 @@
 <template>
     <body id="page-top">
+        <img src="Sneakers/project-sneakers/src/assets/img/nikefond.jpeg" alt="">
         <!-- Navigation-->
         
         <!-- Masthead-->
@@ -95,7 +96,7 @@
             </div>
         </section>
         <!-- Portfolio Grid-->
-        <section class="page-section" id="portfolio">
+        <section class="page-section" style="backgroundImage: url(../assets/img/nikefond.jpeg)" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">BestSeller</h2>
@@ -521,14 +522,19 @@
             </div>
         </section>
         <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
+        <div class="py-5 bg-light">
+            <div class="container ">
                 <div class="row align-items-center">
+                    <div class="">
+                        <div class="jumbotron">
+                        <h1 class="display-2 text-uppercase ">Nos partenaires</h1>
+                        </div>
+                    </div>
                     <div class="col-md-3 col-sm-6 my-3">
                         <a href="#!"
                             ><img
                                 class="img-fluid img-brand d-block mx-auto"
-                                src="../assets/img/logos/microsoft.svg"
+                                src="../assets/img/logo/nike-removebg-preview.png"
                                 alt="..."
                         /></a>
                     </div>
@@ -536,7 +542,7 @@
                         <a href="#!"
                             ><img
                                 class="img-fluid img-brand d-block mx-auto"
-                                src="../assets/img/logos/google.svg"
+                                src="../assets/img/logo/jojo-removebg-preview.png"
                                 alt="..."
                         /></a>
                     </div>
@@ -544,7 +550,7 @@
                         <a href="#!"
                             ><img
                                 class="img-fluid img-brand d-block mx-auto"
-                                src="../assets/img/logos/facebook.svg"
+                                src="../assets/img/logo/sup-removebg-preview.png"
                                 alt="..."
                         /></a>
                     </div>
@@ -552,7 +558,7 @@
                         <a href="#!"
                             ><img
                                 class="img-fluid img-brand d-block mx-auto"
-                                src="../assets/img/logos/ibm.svg"
+                                src="../assets/img/logo/puma-removebg-preview.png"
                                 alt="..."
                         /></a>
                     </div>
@@ -736,12 +742,6 @@
         >
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal">
-                        <img
-                            src="../assets/img/close-icon.svg"
-                            alt="Close modal"
-                        />
-                    </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -785,7 +785,7 @@
                                         type="button"
                                     >
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        FERMER
                                     </button>
                                 </div>
                             </div>
@@ -804,12 +804,6 @@
         >
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal">
-                        <img
-                            src="../assets/img/close-icon.svg"
-                            alt="Close modal"
-                        />
-                    </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -853,7 +847,7 @@
                                         type="button"
                                     >
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        FERMER
                                     </button>
                                 </div>
                             </div>
@@ -872,12 +866,6 @@
         >
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal">
-                        <img
-                            src="../assets/img/close-icon.svg"
-                            alt="Close modal"
-                        />
-                    </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -921,7 +909,7 @@
                                         type="button"
                                     >
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        FERMER
                                     </button>
                                 </div>
                             </div>
@@ -940,12 +928,6 @@
         >
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal">
-                        <img
-                            src="../assets/img/close-icon.svg"
-                            alt="Close modal"
-                        />
-                    </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -989,7 +971,7 @@
                                         type="button"
                                     >
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        FERMER
                                     </button>
                                 </div>
                             </div>
@@ -1008,12 +990,6 @@
         >
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal">
-                        <img
-                            src="../assets/img/close-icon.svg"
-                            alt="Close modal"
-                        />
-                    </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -1057,7 +1033,7 @@
                                         type="button"
                                     >
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        FERMER
                                     </button>
                                 </div>
                             </div>
@@ -1076,12 +1052,6 @@
         >
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal">
-                        <img
-                            src="../assets/img/close-icon.svg"
-                            alt="Close modal"
-                        />
-                    </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -1125,7 +1095,7 @@
                                         type="button"
                                     >
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        FERMER
                                     </button>
                                 </div>
                             </div>

@@ -18,7 +18,7 @@
                             <router-link to="/">Home</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/about">About</router-link>
+                            <router-link to="/about">A Propos</router-link>
                         </li>
                         <li class="nav-item">
                             <router-link to="/store">Store</router-link>
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="col-2 my-auto  " >
-                <button class="btn "><a href="">ICI PANIER</a></button>
+                <button class="btn  "><a href="#"><i class="fas fa-shopping-cart" style="height:90px"></i></a></button>
             </div>
         </div>
     </div>
