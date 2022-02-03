@@ -100,6 +100,7 @@ body {
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-image: url("project-sneakers/src/assets/img/chaussure.jpg");
 }
 
 hr {
@@ -11833,6 +11834,10 @@ header.masthead .masthead-heading {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#portolio{
+    background-image: url(../assets/img/nikefond.jpeg),
+    
 }
 
 .portfolio-modal .modal-dialog {

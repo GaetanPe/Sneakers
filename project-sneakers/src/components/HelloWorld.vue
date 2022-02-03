@@ -4,25 +4,47 @@
         
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">Welcome To Our Studio!</div>
-                <div class="masthead-heading text-uppercase">
-                    It's Nice To Meet You
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="display-1 text-uppercase ">Sneakers Addict </h1>
+                        </div>
+                        <div class="col-12 ">
+                            <p class="lead font-italic" style="font-size:35px">La sneaker qu'il vous faut...</p>
+                        </div>
+                    </div>
                 </div>
-                <a
-                    class="btn btn-primary btn-xl text-uppercase"
-                    href="#services"
-                    >Tell Me More</a
-                >
             </div>
         </header>
+        <!--Search barre-->
+            <div class="container">
+                <form class="form-inline" action="/recherche/" method="get">
+                    <fieldset>    
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        <select id="oCategorie" name="oCategorie" class="form-control">
+                            <option selected="selected" value="0">Catégorie</option>
+                            <option value="1">1 a remplir</option>
+                            <option value="2">2 a remplir</option>
+                            <option value="3">3 a remplir</option>
+                        </select>
+                        </div>
+                        <input id="oSaisie" name="oSaisie" type="text" class="form-control" aria-label="Saisie de mots clés" required="required">
+                        <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Recherche</button>
+                        </div>
+                    </div>
+                    </fieldset> 
+                </form>
+            </div>
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Services</h2>
                     <h3 class="section-subheading text-muted">
-                        Lorem ipsum dolor sit amet consectetur.
+                        Votre confort ? Notre priorité !
                     </h3>
                 </div>
                 <div class="row text-center">
@@ -32,14 +54,16 @@
                                 class="fas fa-circle fa-stack-2x text-primary"
                             ></i>
                             <i
-                                class="fas fa-shopping-cart fa-stack-1x fa-inverse"
+                                class="
+                                    fas
+                                    fa-shopping-cart fa-stack-1x fa-inverse
+                                "
                             ></i>
                         </span>
-                        <h4 class="my-3">E-Commerce</h4>
+                        <h4 class="my-3">Livraison Rapide</h4>
                         <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Minima maxime quam architecto quo inventore
-                            harum ex magni, dicta impedit.
+                            Notre transporteur vous assure une livre rapide et sécurisé, 
+                            dans les plus brefs délais.
                         </p>
                     </div>
                     <div class="col-md-4">
@@ -49,11 +73,10 @@
                             ></i>
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Responsive Design</h4>
+                        <h4 class="my-3">Achat en Ligne</h4>
                         <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Minima maxime quam architecto quo inventore
-                            harum ex magni, dicta impedit.
+                            La totalité des modèles sont disponibles sur notre site
+                            dans les différentes tailles.
                         </p>
                     </div>
                     <div class="col-md-4">
@@ -63,23 +86,21 @@
                             ></i>
                             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Web Security</h4>
+                        <h4 class="my-3">Paiement Sécurisé</h4>
                         <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Minima maxime quam architecto quo inventore
-                            harum ex magni, dicta impedit.
+                            Notre plateforme de paiement est totalement sécurisée.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <section class="page-section" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h2 class="section-heading text-uppercase">BestSeller</h2>
                     <h3 class="section-subheading text-muted">
-                        Lorem ipsum dolor sit amet consectetur.
+                        Nos meilleurs ventes ce mois-ci.
                     </h3>
                 </div>
                 <div class="row">
@@ -107,7 +128,10 @@
                                     Threads
                                 </div>
                                 <div
-                                    class="portfolio-caption-subheading text-muted"
+                                    class="
+                                        portfolio-caption-subheading
+                                        text-muted
+                                    "
                                 >
                                     Illustration
                                 </div>
@@ -138,7 +162,10 @@
                                     Explore
                                 </div>
                                 <div
-                                    class="portfolio-caption-subheading text-muted"
+                                    class="
+                                        portfolio-caption-subheading
+                                        text-muted
+                                    "
                                 >
                                     Graphic Design
                                 </div>
@@ -169,7 +196,10 @@
                                     Finish
                                 </div>
                                 <div
-                                    class="portfolio-caption-subheading text-muted"
+                                    class="
+                                        portfolio-caption-subheading
+                                        text-muted
+                                    "
                                 >
                                     Identity
                                 </div>
@@ -200,7 +230,10 @@
                                     Lines
                                 </div>
                                 <div
-                                    class="portfolio-caption-subheading text-muted"
+                                    class="
+                                        portfolio-caption-subheading
+                                        text-muted
+                                    "
                                 >
                                     Branding
                                 </div>
@@ -231,7 +264,10 @@
                                     Southwest
                                 </div>
                                 <div
-                                    class="portfolio-caption-subheading text-muted"
+                                    class="
+                                        portfolio-caption-subheading
+                                        text-muted
+                                    "
                                 >
                                     Website Design
                                 </div>
@@ -262,7 +298,10 @@
                                     Window
                                 </div>
                                 <div
-                                    class="portfolio-caption-subheading text-muted"
+                                    class="
+                                        portfolio-caption-subheading
+                                        text-muted
+                                    "
                                 >
                                     Photography
                                 </div>
@@ -276,13 +315,13 @@
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h2 class="section-heading text-uppercase">A propos</h2>
                     <h3 class="section-subheading text-muted">
                         Mise en place de la plateforme SneakersAddict
                     </h3>
                 </div>
                 <ul class="timeline">
-                    <li>
+                    <li style="list-style:none">
                         <div class="timeline-image">
                             <img
                                 class="rounded-circle img-fluid"
@@ -293,20 +332,24 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2019-2020</h4>
-                                <h4 class="subheading">
-                                   Nos débuts laborieux
-                                </h4>
+                                <h4 class="subheading">Nos débuts laborieux</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">
-                                    Après plusieurs mois, acharnée de travail pour concrétiser notre projet nous avons essuyé de nombreuses échecs.
-                                    Mais comme on le dit souvent le plus important c'est pas la chute c'est l'attérissage, ainsi nous sommes revus plus déterminés que
-                                    jamais après chaque obstable sur notre route afin de vous offrir le meilleur en terme de sneakers.
+                                    Après plusieurs mois, acharné de travail
+                                    pour concrétiser notre projet nous avons
+                                    essuyé de nombreux échecs. Mais comme on
+                                    le dit souvent le plus important c'est pas
+                                    la chute c'est l'attérissage, ainsi nous
+                                    sommes revenus plus déterminés que jamais
+                                    après chaque obstable sur notre route afin
+                                    de vous offrir le meilleur en terme de
+                                    sneakers.
                                 </p>
                             </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li class="timeline-inverted" style="list-style:none">
                         <div class="timeline-image">
                             <img
                                 class="rounded-circle img-fluid"
@@ -317,19 +360,29 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Janvier 2021</h4>
-                                <h4 class="subheading">Création de la première boutique</h4>
+                                <h4 class="subheading">
+                                    Création de la première boutique
+                                </h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">
-                                    Suite un succès exponnetielle de notre plateforme se classsant dans les plus sites et applications les plus visités sur
-                                    l'année de 2021. Nous avons voulu voir grand très grand en revoyant nos objectifs avec plus d'ambition.
-                                    Malgrès les difficultés sanitaires actuels qui aurait pu nous contraindre à le faire. <br>
-                                    Nous avons ouvert <span class="text-uppercase text-dark">notre première boutique sur Paris</span>
+                                    Suite un succès exponentiel de notre
+                                    plateforme, se classsant dans les sites
+                                    et applications les plus visités sur l'année
+                                    de 2021. Nous avons voulu voir grand, très
+                                    grand, en revoyant nos objectifs avec plus
+                                    d'ambition. Malgrès les difficultés
+                                    sanitaires actuelles qui auraient pû nous
+                                    contraindre à le faire. <br />
+                                    Nous avons ouvert !!
+                                    <span class="text-uppercase text-dark"
+                                        >notre première boutique sur Paris</span
+                                    >
                                 </p>
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <li style="list-style:none">
                         <div class="timeline-image">
                             <img
                                 class="rounded-circle img-fluid"
@@ -346,14 +399,17 @@
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">
-                                    Encore une fois, notre succès a été rétinticent notre présence devenaient presque vitale.
-                                    Pour commecencer, nous avons conquis le coeur des fans franciliens en ouvrant une dizaine de boutique.
-                                    Puis dans toutes la France métropolitaine.
+                                    Encore une fois, notre succès a été
+                                    retentissant notre présence devenait
+                                    presque vitale. Pour commecencer, nous avons
+                                    conquis le coeur des fans franciliens en
+                                    ouvrant une dizaine de boutiques. Puis dans
+                                    toute la France métropolitaine.
                                 </p>
                             </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li class="timeline-inverted" style="list-style:none">
                         <div class="timeline-image">
                             <img
                                 class="rounded-circle img-fluid"
@@ -364,14 +420,20 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Janvier 2022</h4>
-                                <h4 class="subheading">Transition vers une enseigne mondiale</h4>
+                                <h4 class="subheading">
+                                    Transition vers une enseigne mondiale
+                                </h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">
-                                    SneakersAddict va au courant de l'année s'ouvrir au marché mondiale en touchant un public toujours aussi passionné avec une bonne
-                                    paire au pied 😁.
-                                    SneakersAddict sera bientot une réference aux quatres coins du monde pour les personnes qui desire 
-                                    apprendre et comprendre cette univers si merveilleux.
+                                    SneakersAddict va au courant de l'année
+                                    s'ouvrir au marché mondial en touchant un
+                                    public toujours aussi passionné avec une
+                                    bonne paire aux pieds 😁. SneakersAddict sera
+                                    bientot une référence aux quatres coins du
+                                    monde pour les personnes qui désirent
+                                    apprendre et comprendre cet univers si
+                                    merveilleux.
                                 </p>
                             </div>
                         </div>
@@ -387,7 +449,8 @@
                         Notre equipe fondatrice
                     </h2>
                     <h3 class="section-subheading text-muted">
-                        Voici les trois premières personnes à avoir travailler sur SneakersAddict.
+                        Voici les trois premières personnes à avoir travailler
+                        sur SneakersAddict.
                     </h3>
                 </div>
                 <div class="row">
@@ -398,9 +461,12 @@
                                 src="../assets/img/team/1.jpg"
                                 alt="..."
                             />
-                            <h4>Parveen Anand</h4>
+                            <h4>Alain Provist</h4>
                             <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/RebeuDeter" target="_blank"
+                            <a
+                                class="btn btn-dark btn-social mx-2"
+                                href="https://twitter.com/RebeuDeter"
+                                target="_blank"
                                 ><i class="fab fa-twitter"></i
                             ></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"
@@ -418,7 +484,7 @@
                                 src="../assets/img/team/2.jpg"
                                 alt="..."
                             />
-                            <h4>Diana Petersen</h4>
+                            <h4>Gérard Menjoui Thomas</h4>
                             <p class="text-muted">Lead Marketer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"
                                 ><i class="fab fa-twitter"></i
@@ -438,7 +504,7 @@
                                 src="../assets/img/team/3.jpg"
                                 alt="..."
                             />
-                            <h4>Larry Parker</h4>
+                            <h4>Jean Quete</h4>
                             <p class="text-muted">Lead Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"
                                 ><i class="fab fa-twitter"></i
@@ -497,7 +563,9 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contactez Nous</h2>
+                    <h2 class="section-heading text-uppercase">
+                        Contactez Nous
+                    </h2>
                     <h3 class="section-subheading text-muted">
                         Lorem ipsum dolor sit amet consectetur.
                     </h3>
@@ -614,7 +682,11 @@
                     <!-- Submit Button-->
                     <div class="text-center">
                         <button
-                            class="btn btn-primary btn-xl text-uppercase disabled"
+                            class="
+                                btn btn-primary btn-xl
+                                text-uppercase
+                                disabled
+                            "
                             id="submitButton"
                             type="submit"
                         >
@@ -705,7 +777,10 @@
                                         </li>
                                     </ul>
                                     <button
-                                        class="btn btn-primary btn-xl text-uppercase"
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
                                         data-bs-dismiss="modal"
                                         type="button"
                                     >
@@ -770,7 +845,10 @@
                                         </li>
                                     </ul>
                                     <button
-                                        class="btn btn-primary btn-xl text-uppercase"
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
                                         data-bs-dismiss="modal"
                                         type="button"
                                     >
@@ -835,7 +913,10 @@
                                         </li>
                                     </ul>
                                     <button
-                                        class="btn btn-primary btn-xl text-uppercase"
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
                                         data-bs-dismiss="modal"
                                         type="button"
                                     >
@@ -900,7 +981,10 @@
                                         </li>
                                     </ul>
                                     <button
-                                        class="btn btn-primary btn-xl text-uppercase"
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
                                         data-bs-dismiss="modal"
                                         type="button"
                                     >
@@ -965,7 +1049,10 @@
                                         </li>
                                     </ul>
                                     <button
-                                        class="btn btn-primary btn-xl text-uppercase"
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
                                         data-bs-dismiss="modal"
                                         type="button"
                                     >
@@ -1030,7 +1117,10 @@
                                         </li>
                                     </ul>
                                     <button
-                                        class="btn btn-primary btn-xl text-uppercase"
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
                                         data-bs-dismiss="modal"
                                         type="button"
                                     >
@@ -1044,7 +1134,6 @@
                 </div>
             </div>
         </div>
-       
     </body>
 </template>
 
@@ -1055,4 +1144,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+#page-top {
+    margin-top: 160px;
+}
+</style>
