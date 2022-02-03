@@ -1,5 +1,24 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+   <Apropos/>
+   <Footer/>
   </div>
 </template>
+<script>
+// @ is an alias to /src
+
+import Apropos from "../components/Apropos.vue";
+import Footer from '../components/Footer.vue'
+export default {
+    name: "About",
+    components: {
+       Apropos,
+       Footer
+    },
+};
+</script>
+<style scoped>
+.about{
+  margin-top:150px;
+}
+</style>
