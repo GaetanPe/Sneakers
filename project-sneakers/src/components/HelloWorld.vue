@@ -32,7 +32,7 @@
                         </div>
                         <input id="oSaisie" name="oSaisie" type="text" class="form-control" aria-label="Saisie de mots clés" required="required">
                         <div class="input-group-append">
-                        <button class="btn btn-primary" type="submit">Recherche</button>
+                        <button class="btn btn-primary" style="z-index:0;" type="submit">Recherche</button>
                         </div>
                     </div>
                     </fieldset> 
