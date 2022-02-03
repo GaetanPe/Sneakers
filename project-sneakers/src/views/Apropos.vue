@@ -10,7 +10,7 @@
 import Apropos from "../components/Apropos.vue";
 import Footer from '../components/Footer.vue'
 export default {
-    name: "About",
+    name: "apropos",
     components: {
        Apropos,
        Footer
