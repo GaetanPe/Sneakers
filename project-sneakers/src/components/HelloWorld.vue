@@ -1,10 +1,10 @@
 <template>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-info fixed-top bg-light" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top"
-                    ><img src="" alt="..."
+                    ><img src="../assets/img/nav-barLogo.png" alt="..." style="height:100px"
                 /></a>
                 <button
                     class="navbar-toggler"
@@ -315,7 +315,7 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
                     <h3 class="section-subheading text-muted">
-                        Lorem ipsum dolor sit amet consectetur.
+                        Mise en place de la plateforme SneakersAddict
                     </h3>
                 </div>
                 <ul class="timeline">
@@ -329,19 +329,16 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
+                                <h4>2019-2020</h4>
                                 <h4 class="subheading">
-                                    Our Humble Beginnings
+                                   Nos débuts laborieux
                                 </h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Sunt ut voluptatum eius
-                                    sapiente, totam reiciendis temporibus qui
-                                    quibusdam, recusandae sit vero unde, sed,
-                                    incidunt et ea quo dolore laudantium
-                                    consectetur!
+                                    Après plusieurs mois, acharnée de travail pour concrétiser notre projet nous avons essuyé de nombreuses échecs.
+                                    Mais comme on le dit souvent le plus important c'est pas la chute c'est l'attérissage, ainsi nous sommes revus plus déterminés que
+                                    jamais après chaque obstable sur notre route afin de vous offrir le meilleur en terme de sneakers.
                                 </p>
                             </div>
                         </div>
@@ -356,17 +353,15 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
+                                <h4>Janvier 2021</h4>
+                                <h4 class="subheading">Création de la première boutique</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Sunt ut voluptatum eius
-                                    sapiente, totam reiciendis temporibus qui
-                                    quibusdam, recusandae sit vero unde, sed,
-                                    incidunt et ea quo dolore laudantium
-                                    consectetur!
+                                    Suite un succès exponnetielle de notre plateforme se classsant dans les plus sites et applications les plus visités sur
+                                    l'année de 2021. Nous avons voulu voir grand très grand en revoyant nos objectifs avec plus d'ambition.
+                                    Malgrès les difficultés sanitaires actuels qui aurait pu nous contraindre à le faire. <br>
+                                    Nous avons ouvert <span class="text-uppercase text-dark">notre première boutique sur Paris</span>
                                 </p>
                             </div>
                         </div>
@@ -381,19 +376,16 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2015</h4>
+                                <h4>Juillet 2021</h4>
                                 <h4 class="subheading">
-                                    Transition to Full Service
+                                    Transition vers une enseigne
                                 </h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Sunt ut voluptatum eius
-                                    sapiente, totam reiciendis temporibus qui
-                                    quibusdam, recusandae sit vero unde, sed,
-                                    incidunt et ea quo dolore laudantium
-                                    consectetur!
+                                    Encore une fois, notre succès a été rétinticent notre présence devenaient presque vitale.
+                                    Pour commecencer, nous avons conquis le coeur des fans franciliens en ouvrant une dizaine de boutique.
+                                    Puis dans toutes la France métropolitaine.
                                 </p>
                             </div>
                         </div>
@@ -408,30 +400,17 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
+                                <h4>Janvier 2022</h4>
+                                <h4 class="subheading">Transition vers une enseigne mondiale</h4>
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Sunt ut voluptatum eius
-                                    sapiente, totam reiciendis temporibus qui
-                                    quibusdam, recusandae sit vero unde, sed,
-                                    incidunt et ea quo dolore laudantium
-                                    consectetur!
+                                    SneakersAddict va au courant de l'année s'ouvrir au marché mondiale en touchant un public toujours aussi passionné avec une bonne
+                                    paire au pied 😁.
+                                    SneakersAddict sera bientot une réference aux quatres coins du monde pour les personnes qui desire 
+                                    apprendre et comprendre cette univers si merveilleux.
                                 </p>
                             </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
                         </div>
                     </li>
                 </ul>
@@ -442,10 +421,10 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">
-                        Our Amazing Team
+                        Notre equipe fondatrice
                     </h2>
                     <h3 class="section-subheading text-muted">
-                        Lorem ipsum dolor sit amet consectetur.
+                        Voici les trois premières personnes à avoir travailler sur SneakersAddict.
                     </h3>
                 </div>
                 <div class="row">
@@ -458,7 +437,7 @@
                             />
                             <h4>Parveen Anand</h4>
                             <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/RebeuDeter" target="_blank"
                                 ><i class="fab fa-twitter"></i
                             ></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"
@@ -508,15 +487,6 @@
                                 ><i class="fab fa-linkedin-in"></i
                             ></a>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center">
-                        <p class="large text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Aut eaque, laboriosam veritatis, quos non quis
-                            ad perspiciatis, totam corporis ea, alias ut unde.
-                        </p>
                     </div>
                 </div>
             </div>
@@ -585,7 +555,7 @@
                                     class="form-control"
                                     id="name"
                                     type="text"
-                                    placeholder="Your Name *"
+                                    placeholder="Votre nom *"
                                     data-sb-validations="required"
                                 />
                                 <div
@@ -601,7 +571,7 @@
                                     class="form-control"
                                     id="email"
                                     type="email"
-                                    placeholder="Your Email *"
+                                    placeholder="Votre Email *"
                                     data-sb-validations="required,email"
                                 />
                                 <div
@@ -623,7 +593,7 @@
                                     class="form-control"
                                     id="phone"
                                     type="tel"
-                                    placeholder="Your Phone *"
+                                    placeholder="Votre telephone *"
                                     data-sb-validations="required"
                                 />
                                 <div
@@ -640,7 +610,7 @@
                                 <textarea
                                     class="form-control"
                                     id="message"
-                                    placeholder="Your Message *"
+                                    placeholder="Votre Message *"
                                     data-sb-validations="required"
                                 ></textarea>
                                 <div
@@ -685,7 +655,7 @@
                             id="submitButton"
                             type="submit"
                         >
-                            Send Message
+                            Envoyer
                         </button>
                     </div>
                 </form>
