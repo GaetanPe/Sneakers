@@ -1,5 +1,15 @@
 <template>
-  <div class="about bg-info">
-    <h1>Store en préparation</h1>
-  </div>
+<StorePage/>
 </template>
+<script>
+// @ is an alias to /src
+import StorePage from '../components/Store/StorePage.vue'
+
+export default {
+  name: 'Store',
+  components: {
+    StorePage,
+  }
+}
+</script>
+

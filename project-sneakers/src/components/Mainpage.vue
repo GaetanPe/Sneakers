@@ -1,6 +1,6 @@
 <template>
     <body id="page-top">
-        <img src="Sneakers/project-sneakers/src/assets/img/nikefond.jpeg" alt="">
+        
         <!-- Navigation-->
         
         <!-- Masthead-->
@@ -18,26 +18,17 @@
                 </div>
             </div>
         </header>
-        <!--Search barre-->
+
+            <!-- Search form -->
             <div class="container">
-                <form class="form-inline" action="/recherche/" method="get">
-                    <fieldset>    
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                        <select id="oCategorie" name="oCategorie" class="form-control">
-                            <option selected="selected" value="0">Catégorie</option>
-                            <option value="1">1 a remplir</option>
-                            <option value="2">2 a remplir</option>
-                            <option value="3">3 a remplir</option>
-                        </select>
-                        </div>
-                        <input id="oSaisie" name="oSaisie" type="text" class="form-control" aria-label="Saisie de mots clés" required="required">
-                        <div class="input-group-append">
-                        <button class="btn btn-primary" style="z-index:0;" type="submit">Recherche</button>
-                        </div>
+                <div class="row">
+                    <div class="col">
+                        <form class="form-inline">
+                            <input class="form-control w-100" type="text" placeholder="Recherche">
+                            <button class="btn btn-primary btn-rounded" type="submit">Envoyer</button>
+                        </form>
                     </div>
-                    </fieldset> 
-                </form>
+                </div>
             </div>
         <!-- Services-->
         <section class="page-section" id="services">
@@ -96,7 +87,7 @@
             </div>
         </section>
         <!-- Portfolio Grid-->
-        <section class="page-section" style="backgroundImage: url(../assets/img/nikefond.jpeg)" id="portfolio">
+        <section class="page-section" id="portfolio" :style="{'background-image': 'url(' + require('../assets/img/nikefond.jpeg') + ')'}">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">BestSeller</h2>
@@ -781,6 +772,15 @@
                                             btn btn-primary btn-xl
                                             text-uppercase
                                         "
+                                        type="button"
+                                    >
+                                        AJOUTER AU PANIER
+                                    </button>
+                                    <button
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
                                         data-bs-dismiss="modal"
                                         type="button"
                                     >
@@ -838,6 +838,16 @@
                                             Graphic Design
                                         </li>
                                     </ul>
+                                    <button
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
+                                        data-bs-dismiss="modal"
+                                        type="button"
+                                    >
+                                        AJOUTER AU PANIER
+                                    </button>
                                     <button
                                         class="
                                             btn btn-primary btn-xl
@@ -909,6 +919,17 @@
                                         type="button"
                                     >
                                         <i class="fas fa-times me-1"></i>
+                                        AJOUTER AU PANIER
+                                    </button>
+                                    <button
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
+                                        data-bs-dismiss="modal"
+                                        type="button"
+                                    >
+                                        <i class="fas fa-times me-1"></i>
                                         FERMER
                                     </button>
                                 </div>
@@ -962,6 +983,17 @@
                                             Branding
                                         </li>
                                     </ul>
+                                    <button
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
+                                        data-bs-dismiss="modal"
+                                        type="button"
+                                    >
+                                        <i class="fas fa-times me-1"></i>
+                                        AJOUTER AU PANIER
+                                    </button>
                                     <button
                                         class="
                                             btn btn-primary btn-xl
@@ -1033,6 +1065,17 @@
                                         type="button"
                                     >
                                         <i class="fas fa-times me-1"></i>
+                                        AJOUTER AU PANIER
+                                    </button>
+                                    <button
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
+                                        data-bs-dismiss="modal"
+                                        type="button"
+                                    >
+                                        <i class="fas fa-times me-1"></i>
                                         FERMER
                                     </button>
                                 </div>
@@ -1086,6 +1129,17 @@
                                             Photography
                                         </li>
                                     </ul>
+                                    <button
+                                        class="
+                                            btn btn-primary btn-xl
+                                            text-uppercase
+                                        "
+                                        data-bs-dismiss="modal"
+                                        type="button"
+                                    >
+                                        <i class="fas fa-times me-1"></i>
+                                        AJOUTER AU PANIER
+                                    </button>
                                     <button
                                         class="
                                             btn btn-primary btn-xl
