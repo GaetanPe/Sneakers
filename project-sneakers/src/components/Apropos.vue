@@ -1,5 +1,6 @@
 <template>
-     <!-- Apropos-->
+    <div>
+    <!-- Apropos-->
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
@@ -129,7 +130,7 @@
                 </ul>
             </div>
         </section>
-          <!-- Equipe-->
+        <!-- Equipe-->
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
@@ -172,7 +173,7 @@
                                 src="../assets/img/team/2.jpg"
                                 alt="..."
                             />
-                            <h4>Gérard Menjoui Thomas</h4>
+                            <h4>Gaëtan Gérard Menjouhi</h4>
                             <p class="text-muted">Lead Marketer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"
                                 ><i class="fab fa-twitter"></i
@@ -190,6 +191,7 @@
                             <img
                                 class="mx-auto rounded-circle"
                                 src="../assets/img/team/3.jpg"
+                                style="height: 500px;"
                                 alt="..."
                             />
                             <h4>Jean Quete</h4>
@@ -208,4 +210,5 @@
                 </div>
             </div>
         </section>
+        </div>
 </template>

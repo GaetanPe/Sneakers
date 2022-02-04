@@ -2,14 +2,23 @@
     <section class="page-section" id="portfolio">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">BestSeller</h2>
+                <h2 class="section-heading text-uppercase">Nos Sneakers</h2>
                 <h3 class="section-subheading text-muted">
-                    Nos meilleurs ventes ce mois-ci.
+                   Voici une sélection qui pourra vous plaire 😍
                 </h3>
             </div>
             <div class="row " id="rowtt">
-                <div class="col-lg-4 col-sm-6 " style="margin-bottom:100px" v-for="elements in sneakers" v-bind:key="elements.id" >
-                    <!-- Portfolio item 1-->
+                <div class="col-lg-12 col-sm-6 mb-3">
+                    <select v-model="monChoix" name="liste" @change="onChange($evenement)" class="form-control">
+                    <option value="" disabled selected hidden>Choix</option>
+                        <option value="">Tout</option>
+                        <option value='["basketball"]'>Basketball</option>
+                        <option value='["lifestyle"]'>Lifestyle</option>
+                    </select>
+                </div>
+                <div class="col-lg-4 col-sm-6 " style="margin-bottom:100px" v-for="elements in sneakers " v-bind:key="elements.id" >
+                   
+                   <!--item 1-->
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -32,9 +41,16 @@
                                 <span class="correct">Etat</span> : {{elements.shoe_condition}} <br>
                                 <a v-if="elements.story_html"> <span class="correct">Story :</span> {{elements.story_html}}</a> <br>
                                 <span class="correct">Designer</span> : {{elements.designer}} <br>
-                                <a v-if="elements.has_stock"> in stock <img style="width: 7%" src="../assets/img/validation.png"></a>
-                                <a v-else> not in stock <img style="width: 5%" src="../assets/img/Cross_red_circle.png"></a> 
-                                <br>
+                                <span v-if="elements.has_stock" class="correct"> in stock <img style="width: 7%" src="../assets/img/validation.png"></span>
+                                <span  v-else> not in stock <img style="width: 5%" src="../assets/img/Cross_red_circle.png"></span>
+                                <div class="container">
+                                    <div class="row ">
+                                        <div class="col-2">
+                                            <span v-if="elements.Bestseller"> <img style="width: 200%;" src="../assets/img/best-seller.png"></span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                
                                 </div>
                             </div>
                         </div>
@@ -42,7 +58,7 @@
                     <div class="container" style="margin-top:80px;">
                         <div class="row">
                             <div class="col">
-                                <button class="Mysuperbutton">Ajouter Au Panier</button>
+                                <button  class="Mysuperbutton">Ajouter Au Panier</button>
                             </div>
                         </div>
                     </div>
@@ -58,8 +74,17 @@ import sneakers from '../data/API.json'
 export default{ 
 data (){
     return sneakers
-    }
+    },
+methods:{
+        onChange:function(evenement){
+           let value = this.monChoix.toString(); //On y accède de n'importe où dans le framework
+           console.log(typeof'value');
+            return value
+        }
+        
 }
+}
+
 </script>
 <style>
 

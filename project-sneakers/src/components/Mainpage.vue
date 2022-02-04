@@ -23,7 +23,7 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-11 ">
-                                        <input class="form-control w-100" type="text" placeholder="Recherche">
+                                        <input class="form-control w-100" type="text" @keyup="searchTask" v-model="q" placeholder="Recherche">
                                     </div>
                                     <div class="col-1">
                                         <button class="btn btn-primary btn-rounded w-100" type="submit">Envoyer</button>

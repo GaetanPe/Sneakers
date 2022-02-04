@@ -34,14 +34,14 @@ export default {
 
 #nav a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #ffff;
     text-decoration: none;
     font-size: 30px;
     margin-right: 30px;
 }
 
 #nav a.router-link-exact-active {
-    color: yellow;
+    color: rgb(233, 20, 20);
     text-decoration: none;
     margin-right: 40px;
     font-size: 30px;

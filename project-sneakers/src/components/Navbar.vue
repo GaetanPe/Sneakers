@@ -1,8 +1,9 @@
 <template>
-    <div class="container-fluid navbar navbar-expand-lg navbar-light" id="nav">
+    <div class="container-fluid navbar navbar-expand-lg navbar-light bg-dark" id="nav">
         <div class="row" id="rownav">
             <div class="col-2">
                 <img
+
                     src="../assets/img/nav-barLogo.png"
                     alt=""
                     style="height: 100px"
@@ -27,70 +28,44 @@
                 </div>
             </div>
             <div class="col-4 my-auto">
-                <!-- Section Panier -->
-                <div class="dropdown">
-                    <a
-                        class="btn dropdown-toggle"
-                        href="#"
-                        role="button"
-                        id="dropdownMenuLink"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                    >
-                        <i class="fas fa-shopping-cart"></i>
-                    </a>
-
-                    <div
-                        class="dropdown-menu"
-                        aria-labelledby="dropdownMenuLink"
-                    >
-                        <div id="section-product-details">
-                            <!-- Section Panier -->
-                            <div class="cart">
-                            <table>
-                                <thead>
-                                <tr>
-                                    <th colspan="2">Votre commande</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Nombre de Pizza</td>
-                                    <td>x {{ nbrProduct }}</td>
-                                </tr>
-                                <tr>
-                                    <td>Code Promo</td>
-                                    <td class="code-promo">
-                                    <input v-model="promo" placeholder="Ajouter un code promo" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Total à payer</td>
-
-                                    <td>
-                                    <transition name="bounce">
-                                        <div v-if="promo === 'royale'">
-                                        (-5€)
-                                        <span class="sale">{{ totalPrice }} €</span>
-                                        {{ totalPrice - 5 }} €
-                                        </div>
-                                        <div v-else>{{ totalPrice }} €</div>
-                                    </transition>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                <div class="container">                                          
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                 Cart
+                </button>
+                <div class="dropdown-menu">
+                <div class="card rounded-3 mb-2">
+                        <div class="card-body">
+                        <div class="row ">
+                            <div class="col-6  mr-3">
+                            <p class="lead fw-normal mb-2"></p>
+                            <p><span class="text-muted">Size: </span>M <span class="text-muted">Color: </span>Grey</p>
+                            </div>
+                            <div class="col-1 my-auto border">
+                            <p></p>
+                            </div>
+                            <div class="col-4 my-auto">
+                            <h5 class="mb-0">prix</h5>
+                            </div>
                         </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-body">
+                        <button type="button" class="btn btn-warning btn-block btn-lg">Payer</button>
+                    </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
     </div>
 </template>
 
-<script></script>
+<script>
+
+</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
@@ -100,3 +75,4 @@
     justify-content: space-between;
 }
 </style>
+
