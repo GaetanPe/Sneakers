@@ -48,7 +48,7 @@
                         <div class="container" style="margin-top:80px;">
                             <div class="row">
                                 <div class="col">
-                                    <button class="Mysuperbutton">Ajouter Au Panier</button>
+                                    <button v-on:click="say(elements.name)" class="Mysuperbutton">Ajouter Au Panier</button>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,17 @@ import sneakers from '../data/API.json'
 export default{ 
 data (){
     return sneakers
-    }
+    },
+    methods: {
+        onChange: function (evenement) {
+            let value = this.monChoix.toString(); //On y accède de n'importe où dans le framework
+            console.log("value");
+            return value;
+        },
+        say: function (message) {
+            alert("Un de nos articles best-seller : '" + message + "' est ajouté au panier.");
+        },
+    },
 }
 
 </script>

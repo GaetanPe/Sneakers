@@ -170,7 +170,8 @@
                         <div class="team-member">
                             <img
                                 class="mx-auto rounded-circle"
-                                src="../assets/img/team/2.jpg"
+                                src="../assets/img/team/lafraude.jpeg"
+                                style="height: 500px;"
                                 alt="..."
                             />
                             <h4>Gaëtan Gérard Menjouhi</h4>
@@ -190,7 +191,7 @@
                         <div class="team-member">
                             <img
                                 class="mx-auto rounded-circle"
-                                src="../assets/img/team/3.jpg"
+                                src="../assets/img/team/Jenquete.png"
                                 style="height: 500px;"
                                 alt="..."
                             />

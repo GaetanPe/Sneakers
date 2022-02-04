@@ -36,18 +36,6 @@
                 <div class="dropdown-menu">
                 <div class="card rounded-3 mb-2">
                         <div class="card-body">
-                        <div class="row ">
-                            <div class="col-6  mr-3">
-                            <p class="lead fw-normal mb-2"></p>
-                            <p><span class="text-muted">Size: </span>M <span class="text-muted">Color: </span>Grey</p>
-                            </div>
-                            <div class="col-1 my-auto border">
-                            <p></p>
-                            </div>
-                            <div class="col-4 my-auto">
-                            <h5 class="mb-0">prix</h5>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     <div class="card">
