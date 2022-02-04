@@ -13,7 +13,7 @@ import Mainpage from '@/components/Mainpage.vue'
 import Footer from "../components/Footer.vue"
 import Affichage from "../components/Affichage.vue"
 import Apropos from '../components/Apropos.vue'
-import { componentN } from '../data/API.json'
+
 
 export default{ 
   name: 'Home',
@@ -23,9 +23,7 @@ export default{
     Apropos,
     Affichage
   },
-  data () {
-    return componentN
-  },
+  
 }
 
 </script>

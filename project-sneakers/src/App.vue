@@ -1,11 +1,14 @@
 <template>
-    <Navbar/>
-    <router-view />
+    <div>
+        <Navbar/>
+        <router-view/>
+    </div>
 </template>
 <script>
 import Navbar from "./components/Navbar.vue"
 
 export default {
+    /* eslint-disable no-use-before-define */
     components:{
         Navbar,
     }
